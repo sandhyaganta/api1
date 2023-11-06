@@ -7,12 +7,15 @@ import { ApiService } from '../api.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  apiData!: any;
   constructor(private apiService: ApiService){}
 
   
     ngOnInit() {
       this.apiService.getData().subscribe((res: any) => {
-        console.log(res);
+        this.apiData = res.data
+        console.log(this.apiData);
       });
   }
 

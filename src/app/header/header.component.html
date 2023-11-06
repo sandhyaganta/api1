@@ -1,3 +1,10 @@
 <a roterlink="section">section</a>
 <br>
 <a roterlink="footer">footer</a>
+<ul>
+    <li *ngFor="let r of apiData">
+        <!-- <span *ngIf="row.id == 7"></span> -->
+        <p>{{r.date}}</p>
+        <p>{{r.products}}</p>
+    </li>
+</ul>

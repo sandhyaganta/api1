@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
+  private getUrl = 'https://fakestoreapi.com/carts?userId=1';
 
   constructor(private http: HttpClient)
    { }

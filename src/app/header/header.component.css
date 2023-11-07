@@ -1,0 +1,29 @@
+.i1{
+    width: 70px;
+    height: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.caa{
+    background-color: rgb(64, 64, 185);
+}
+.hh{
+    color: white;
+    margin-left: 550px;
+}
+.cbb{
+    color: white;
+}
+.btn{
+    color: rgb(58, 58, 131);
+}
+.bi{
+color:white;
+}
+.sp1{
+    background-color: rgb(64, 64, 185);
+}
+.btn1{
+    background-color: rgb(64, 64, 185);
+    border: none;
+    color: white;
+}

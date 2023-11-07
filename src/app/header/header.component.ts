@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   
     ngOnInit() {
       this.apiService.getData().subscribe((res: any) => {
-        this.apiData = res.data
+        this.apiData = res
         console.log(this.apiData);
       });
   }
